@@ -1,0 +1,10 @@
+# Ignore generated and user-generated files.
+dist/
+*.tmp
+*.log
+/.prompt-cache
+
+# User prompt data should be local to each machine.
+/Prompts
+/Prompts/*.txt
+/Prompts/settings.ini
