@@ -58,10 +58,8 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force
 ### Option B — one-shot remote install (once repository is public)
 
 ```powershell
-iwr -UseBasicParsing https://raw.githubusercontent.com/<you>/<repo>/main/scripts/install.ps1 | iex
+iwr -UseBasicParsing https://raw.githubusercontent.com/Today20092/autohotkey-chat-prompts/main/scripts/install.ps1 | iex
 ```
-
-Replace `<you>/<repo>` with your public repository path.
 
 ## Manual usage
 
