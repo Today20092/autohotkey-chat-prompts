@@ -30,10 +30,8 @@ I also call it *abhorrent* because this was built with pragmatic shortcuts and z
 
 ## Repository contents
 
-- `src/ChatGPT_Prompts.ahk`  
-  Core prompt manager logic (menus, editing, storage helpers).
 - `src/ChatGPTPrompts.ahk`  
-  Minimal launcher that initializes the tray app and shortcut.
+  Prompt menu app (launcher + logic).
 - `scripts/install.ps1`  
   Install script that sets up files in a writable user folder, creates a startup shortcut, and can launch on first install.
 - `scripts/build-exe.ps1`  

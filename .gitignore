@@ -2,9 +2,21 @@
 dist/
 *.tmp
 *.log
+*.swp
+*.bak
 /.prompt-cache
+Thumbs.db
+.DS_Store
+
+# Editors/IDEs
+.vscode/
+.idea/
 
 # User prompt data should be local to each machine.
 /Prompts
 /Prompts/*.txt
 /Prompts/settings.ini
+
+# Keep example prompts in the repo for demonstration; everything else in /Prompts remains local.
+!/Prompts/Examples/
+!/Prompts/Examples/*
