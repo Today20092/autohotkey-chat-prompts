@@ -21,7 +21,6 @@ New-Item -ItemType Directory -Path $TargetDir -Force | Out-Null
 New-Item -ItemType Directory -Path $DataDir -Force | Out-Null
 
 Copy-Item (Join-Path $SourceDir "ChatGPTPrompts.ahk") $TargetDir -Force
-Copy-Item (Join-Path $SourceDir "ChatGPT_Prompts.ahk") $TargetDir -Force
 
 $startupFolder = Join-Path $env:APPDATA "Microsoft\Windows\Start Menu\Programs\Startup"
 $shortcutPath = Join-Path $startupFolder "ChatGPTPrompts.lnk"
